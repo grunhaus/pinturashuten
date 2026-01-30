@@ -1,0 +1,121 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="50%" style="stop-color:#2a4365"/>
+      <stop offset="100%" style="stop-color:#2c5282"/>
+    </linearGradient>
+    <linearGradient id="sunset" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="50%" style="stop-color:#dd6b20"/>
+      <stop offset="100%" style="stop-color:#c05621" opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky with sunset -->
+  <rect width="1200" height="800" fill="url(#sky5)"/>
+  <rect y="500" width="1200" height="300" fill="url(#sunset)" opacity="0.3"/>
+
+  <!-- Sun -->
+  <circle cx="1050" cy="400" r="80" fill="#ed8936" opacity="0.4"/>
+  <circle cx="1050" cy="400" r="50" fill="#f6ad55" opacity="0.6"/>
+  <circle cx="1050" cy="400" r="30" fill="#fbd38d" opacity="0.8"/>
+
+  <!-- Ground/Hills -->
+  <path d="M0 550 Q200 500 400 530 T800 510 T1200 540 L1200 800 L0 800 Z" fill="#1a202c"/>
+  <rect y="620" width="1200" height="180" fill="#171923"/>
+
+  <!-- Wind Turbine 1 -->
+  <rect x="100" y="280" width="15" height="340" fill="#e2e8f0"/>
+  <circle cx="107" cy="280" r="20" fill="#cbd5e0"/>
+  <!-- Blades -->
+  <line x1="107" y1="280" x2="107" y2="180" stroke="#e2e8f0" stroke-width="8" stroke-linecap="round"/>
+  <line x1="107" y1="280" x2="190" y2="330" stroke="#e2e8f0" stroke-width="8" stroke-linecap="round"/>
+  <line x1="107" y1="280" x2="25" y2="330" stroke="#e2e8f0" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Wind Turbine 2 -->
+  <rect x="250" y="320" width="12" height="300" fill="#e2e8f0"/>
+  <circle cx="256" cy="320" r="16" fill="#cbd5e0"/>
+  <line x1="256" y1="320" x2="256" y2="240" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round"/>
+  <line x1="256" y1="320" x2="320" y2="360" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round"/>
+  <line x1="256" y1="320" x2="192" y2="360" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Wind Turbine 3 -->
+  <rect x="380" y="350" width="10" height="270" fill="#e2e8f0"/>
+  <circle cx="385" cy="350" r="14" fill="#cbd5e0"/>
+  <line x1="385" y1="350" x2="385" y2="280" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round"/>
+  <line x1="385" y1="350" x2="440" y2="385" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round"/>
+  <line x1="385" y1="350" x2="330" y2="385" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- High Voltage Tower 1 -->
+  <g fill="#4a5568">
+    <polygon points="520,620 540,620 560,300 540,280 520,300"/>
+    <polygon points="580,620 600,620 580,300 560,280 560,300"/>
+    <!-- Cross arms -->
+    <rect x="480" y="320" width="160" height="10"/>
+    <rect x="490" y="380" width="140" height="8"/>
+    <rect x="500" y="440" width="120" height="8"/>
+  </g>
+  <!-- Insulators -->
+  <g fill="#63b3ed">
+    <circle cx="490" cy="325" r="6"/>
+    <circle cx="630" cy="325" r="6"/>
+    <circle cx="500" cy="384" r="5"/>
+    <circle cx="620" cy="384" r="5"/>
+    <circle cx="510" cy="444" r="4"/>
+    <circle cx="610" cy="444" r="4"/>
+  </g>
+
+  <!-- High Voltage Tower 2 -->
+  <g fill="#4a5568">
+    <polygon points="750,620 770,620 790,350 770,330 750,350"/>
+    <polygon points="810,620 830,620 810,350 790,330 790,350"/>
+    <rect x="710" y="370" width="160" height="10"/>
+    <rect x="720" y="430" width="140" height="8"/>
+    <rect x="730" y="490" width="120" height="8"/>
+  </g>
+  <g fill="#63b3ed">
+    <circle cx="720" cy="375" r="6"/>
+    <circle cx="860" cy="375" r="6"/>
+    <circle cx="730" cy="434" r="5"/>
+    <circle cx="850" cy="434" r="5"/>
+  </g>
+
+  <!-- Power lines -->
+  <path d="M490 325 Q620 340 720 375" stroke="#718096" stroke-width="2" fill="none"/>
+  <path d="M630 325 Q680 340 720 375" stroke="#718096" stroke-width="2" fill="none"/>
+  <path d="M500 384 Q610 400 730 434" stroke="#718096" stroke-width="2" fill="none"/>
+  <path d="M620 384 Q680 410 730 434" stroke="#718096" stroke-width="2" fill="none"/>
+
+  <!-- Substation -->
+  <rect x="900" y="520" width="250" height="100" fill="#2d3748"/>
+  <rect x="910" y="530" width="100" height="80" fill="#1a202c"/>
+  <rect x="1020" y="540" width="60" height="60" fill="#4a5568"/>
+  <rect x="1100" y="550" width="40" height="50" fill="#4a5568"/>
+  <!-- Transformer -->
+  <rect x="920" y="550" width="30" height="40" fill="#718096"/>
+  <rect x="960" y="545" width="35" height="50" fill="#718096"/>
+  <!-- Fence -->
+  <g stroke="#4a5568" stroke-width="2">
+    <line x1="890" y1="520" x2="890" y2="620"/>
+    <line x1="890" y1="520" x2="1160" y2="520"/>
+    <line x1="1160" y1="520" x2="1160" y2="620"/>
+  </g>
+
+  <!-- Solar panels in distance -->
+  <g fill="#2d3748">
+    <rect x="50" y="580" width="40" height="25" transform="rotate(-15 50 580)"/>
+    <rect x="100" y="585" width="40" height="25" transform="rotate(-15 100 585)"/>
+    <rect x="150" y="590" width="40" height="25" transform="rotate(-15 150 590)"/>
+  </g>
+
+  <!-- Warning lights on towers -->
+  <circle cx="560" cy="285" r="5" fill="#fc8181"/>
+  <circle cx="790" cy="335" r="5" fill="#fc8181"/>
+
+  <!-- Stars -->
+  <circle cx="200" cy="100" r="2" fill="#fff" opacity="0.5"/>
+  <circle cx="400" cy="150" r="1.5" fill="#fff" opacity="0.4"/>
+  <circle cx="600" cy="80" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="800" cy="120" r="1.5" fill="#fff" opacity="0.4"/>
+</svg>

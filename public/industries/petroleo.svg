@@ -1,0 +1,89 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b2a"/>
+      <stop offset="100%" style="stop-color:#1b263b"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5c677d"/>
+      <stop offset="100%" style="stop-color:#33415c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="800" fill="url(#sky)"/>
+
+  <!-- Ground -->
+  <rect y="620" width="1200" height="180" fill="#1a1a1a"/>
+
+  <!-- Oil Platform Main Structure -->
+  <rect x="80" y="300" width="300" height="320" fill="#2d3748" rx="5"/>
+  <rect x="100" y="320" width="260" height="280" fill="#1a202c" rx="3"/>
+
+  <!-- Platform Levels -->
+  <rect x="60" y="280" width="340" height="20" fill="#4a5568"/>
+  <rect x="50" y="380" width="360" height="15" fill="#4a5568"/>
+  <rect x="50" y="480" width="360" height="15" fill="#4a5568"/>
+
+  <!-- Derrick Tower -->
+  <polygon points="180,80 200,280 260,280 280,80" fill="none" stroke="#718096" stroke-width="4"/>
+  <line x1="185" y1="120" x2="275" y2="120" stroke="#718096" stroke-width="3"/>
+  <line x1="187" y1="160" x2="273" y2="160" stroke="#718096" stroke-width="3"/>
+  <line x1="190" y1="200" x2="270" y2="200" stroke="#718096" stroke-width="3"/>
+  <line x1="193" y1="240" x2="267" y2="240" stroke="#718096" stroke-width="3"/>
+  <!-- Cross bracing -->
+  <line x1="185" y1="120" x2="273" y2="160" stroke="#718096" stroke-width="2"/>
+  <line x1="275" y1="120" x2="187" y2="160" stroke="#718096" stroke-width="2"/>
+  <line x1="187" y1="160" x2="270" y2="200" stroke="#718096" stroke-width="2"/>
+  <line x1="273" y1="160" x2="190" y2="200" stroke="#718096" stroke-width="2"/>
+
+  <!-- Refinery Towers -->
+  <rect x="500" y="250" width="100" height="370" fill="url(#metal)" rx="50"/>
+  <ellipse cx="550" cy="250" rx="50" ry="20" fill="#718096"/>
+  <rect x="510" y="200" width="80" height="60" fill="#4a5568" rx="5"/>
+
+  <rect x="650" y="300" width="80" height="320" fill="url(#metal)" rx="40"/>
+  <ellipse cx="690" cy="300" rx="40" ry="15" fill="#718096"/>
+  <rect x="660" y="260" width="60" height="50" fill="#4a5568" rx="5"/>
+
+  <rect x="780" y="200" width="120" height="420" fill="url(#metal)" rx="60"/>
+  <ellipse cx="840" cy="200" rx="60" ry="25" fill="#718096"/>
+  <rect x="800" y="140" width="80" height="70" fill="#4a5568" rx="5"/>
+
+  <!-- Storage Tanks -->
+  <ellipse cx="1000" cy="450" rx="100" ry="40" fill="#2d3748"/>
+  <rect x="900" y="450" width="200" height="170" fill="#2d3748"/>
+  <ellipse cx="1000" cy="620" rx="100" ry="40" fill="#1a202c"/>
+  <ellipse cx="1000" cy="450" rx="100" ry="40" fill="#4a5568"/>
+
+  <!-- Smokestacks with flames -->
+  <rect x="535" y="140" width="30" height="70" fill="#4a5568"/>
+  <circle cx="550" cy="130" r="15" fill="#ed8936"/>
+  <circle cx="550" cy="125" r="10" fill="#f6ad55"/>
+  <circle cx="550" cy="120" r="6" fill="#fbd38d"/>
+
+  <rect x="825" y="80" width="30" height="70" fill="#4a5568"/>
+  <circle cx="840" cy="70" r="18" fill="#ed8936"/>
+  <circle cx="840" cy="63" r="12" fill="#f6ad55"/>
+  <circle cx="840" cy="56" r="7" fill="#fbd38d"/>
+
+  <!-- Pipes -->
+  <rect x="400" y="500" width="500" height="12" fill="#4a5568" rx="6"/>
+  <rect x="380" y="550" width="450" height="10" fill="#2d3748" rx="5"/>
+  <rect x="410" y="450" width="80" height="8" fill="#4a5568" rx="4"/>
+  <rect x="600" y="480" width="200" height="8" fill="#4a5568" rx="4"/>
+
+  <!-- Lights -->
+  <circle cx="100" cy="310" r="5" fill="#fbd38d"/>
+  <circle cx="350" cy="310" r="5" fill="#fbd38d"/>
+  <circle cx="100" cy="410" r="5" fill="#fbd38d"/>
+  <circle cx="350" cy="410" r="5" fill="#fbd38d"/>
+  <circle cx="230" cy="75" r="6" fill="#fc8181"/>
+
+  <!-- Stars -->
+  <circle cx="150" cy="50" r="2" fill="#fff" opacity="0.7"/>
+  <circle cx="400" cy="80" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="600" cy="40" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="950" cy="60" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="1100" cy="100" r="2" fill="#fff" opacity="0.7"/>
+</svg>

@@ -1,0 +1,51 @@
+{
+  "name": "pinturashuten",
+  "version": "1.0.0",
+  "description": "Pinturas Huten - Industrial Paint Company",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "npx tsx src/seed.ts",
+    "generate:types": "payload generate:types",
+    "generate:importmap": "payload generate:importmap"
+  },
+  "dependencies": {
+    "@payloadcms/db-sqlite": "^3.14.0",
+    "@payloadcms/next": "^3.14.0",
+    "@payloadcms/richtext-lexical": "^3.14.0",
+    "@radix-ui/react-accordion": "^1.2.12",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-navigation-menu": "^1.2.14",
+    "@radix-ui/react-separator": "^1.1.8",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@tailwindcss/postcss": "^4.1.18",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "graphql": "^16.8.1",
+    "lucide-react": "^0.563.0",
+    "next": "^15.1.0",
+    "payload": "^3.14.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sharp": "^0.33.0",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": "^18.20.2 || >=20.9.0"
+  }
+}

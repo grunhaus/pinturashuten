@@ -1,0 +1,96 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="60%" style="stop-color:#2c5282"/>
+      <stop offset="100%" style="stop-color:#2b6cb0"/>
+    </linearGradient>
+    <linearGradient id="ocean" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#0d1b2a"/>
+    </linearGradient>
+    <linearGradient id="hull" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c53030"/>
+      <stop offset="100%" style="stop-color:#9b2c2c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="450" fill="url(#sky3)"/>
+
+  <!-- Sun/Moon glow -->
+  <circle cx="1000" cy="150" r="100" fill="#ed8936" opacity="0.2"/>
+  <circle cx="1000" cy="150" r="60" fill="#f6ad55" opacity="0.4"/>
+  <circle cx="1000" cy="150" r="35" fill="#fbd38d" opacity="0.8"/>
+
+  <!-- Ocean -->
+  <rect y="450" width="1200" height="350" fill="url(#ocean)"/>
+
+  <!-- Waves -->
+  <path d="M0 480 Q50 470 100 480 T200 480 T300 480 T400 480 T500 480 T600 480 T700 480 T800 480 T900 480 T1000 480 T1100 480 T1200 480" stroke="#2c5282" stroke-width="3" fill="none"/>
+  <path d="M0 510 Q50 500 100 510 T200 510 T300 510 T400 510 T500 510 T600 510 T700 510 T800 510 T900 510 T1000 510 T1100 510 T1200 510" stroke="#2c5282" stroke-width="2" fill="none" opacity="0.7"/>
+
+  <!-- Cargo Ship -->
+  <!-- Hull -->
+  <path d="M100 520 L150 620 L750 620 L800 520 Z" fill="url(#hull)"/>
+  <path d="M100 520 L800 520 L800 480 L100 480 Z" fill="#1a202c"/>
+
+  <!-- Ship deck structures -->
+  <rect x="150" y="400" width="150" height="80" fill="#2d3748"/>
+  <rect x="160" y="420" width="40" height="30" fill="#4a5568"/>
+  <rect x="220" y="420" width="40" height="30" fill="#4a5568"/>
+  <rect x="200" y="350" width="60" height="50" fill="#2d3748"/>
+  <rect x="210" y="360" width="40" height="25" fill="#63b3ed" opacity="0.5"/>
+
+  <!-- Bridge/Command tower -->
+  <rect x="600" y="350" width="120" height="130" fill="#2d3748"/>
+  <rect x="610" y="370" width="100" height="60" fill="#63b3ed" opacity="0.4"/>
+  <rect x="630" y="310" width="60" height="40" fill="#2d3748"/>
+  <rect x="640" y="320" width="40" height="20" fill="#63b3ed" opacity="0.4"/>
+  <rect x="655" y="280" width="10" height="30" fill="#4a5568"/>
+  <circle cx="660" cy="275" r="5" fill="#48bb78"/>
+
+  <!-- Containers on deck -->
+  <rect x="320" y="430" width="60" height="50" fill="#3182ce"/>
+  <rect x="390" y="430" width="60" height="50" fill="#d69e2e"/>
+  <rect x="460" y="430" width="60" height="50" fill="#38a169"/>
+  <rect x="320" y="380" width="60" height="50" fill="#e53e3e"/>
+  <rect x="390" y="380" width="60" height="50" fill="#805ad5"/>
+  <rect x="460" y="380" width="60" height="50" fill="#dd6b20"/>
+
+  <!-- Cranes -->
+  <rect x="530" y="300" width="15" height="180" fill="#4a5568"/>
+  <rect x="480" y="300" width="80" height="12" fill="#4a5568"/>
+  <line x1="485" y1="312" x2="537" y2="270" stroke="#718096" stroke-width="2"/>
+
+  <!-- Mast and antenna -->
+  <rect x="220" y="280" width="8" height="70" fill="#4a5568"/>
+  <line x1="180" y1="350" x2="224" y2="290" stroke="#718096" stroke-width="2"/>
+  <line x1="270" y1="350" x2="224" y2="290" stroke="#718096" stroke-width="2"/>
+
+  <!-- Small boat in distance -->
+  <path d="M950 550 L970 580 L1050 580 L1070 550 Z" fill="#4a5568"/>
+  <rect x="1000" y="520" width="20" height="30" fill="#2d3748"/>
+
+  <!-- Port/dock in background -->
+  <rect x="0" y="650" width="100" height="150" fill="#2d3748"/>
+  <rect x="1100" y="620" width="100" height="180" fill="#2d3748"/>
+  <rect x="1110" y="500" width="15" height="120" fill="#4a5568"/>
+  <rect x="1100" y="500" width="60" height="10" fill="#4a5568"/>
+
+  <!-- Lighthouse -->
+  <rect x="50" y="550" width="30" height="100" fill="#e2e8f0"/>
+  <polygon points="50,550 65,520 80,550" fill="#c53030"/>
+  <circle cx="65" cy="540" r="8" fill="#fbd38d"/>
+  <circle cx="65" cy="540" r="5" fill="#fff" opacity="0.8"/>
+
+  <!-- Birds -->
+  <path d="M300 200 Q310 190 320 200" stroke="#fff" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M350 180 Q360 170 370 180" stroke="#fff" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M280 230 Q290 220 300 230" stroke="#fff" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <!-- Clouds -->
+  <ellipse cx="200" cy="100" rx="80" ry="30" fill="#fff" opacity="0.1"/>
+  <ellipse cx="500" cy="80" rx="100" ry="35" fill="#fff" opacity="0.1"/>
+  <ellipse cx="750" cy="120" rx="70" ry="25" fill="#fff" opacity="0.1"/>
+</svg>

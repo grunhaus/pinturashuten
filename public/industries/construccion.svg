@@ -1,0 +1,130 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d3748"/>
+      <stop offset="100%" style="stop-color:#4a5568"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="800" fill="url(#sky4)"/>
+
+  <!-- Ground -->
+  <rect y="620" width="1200" height="180" fill="#1a1a1a"/>
+
+  <!-- Building 1 - Modern skyscraper -->
+  <rect x="80" y="180" width="180" height="440" fill="#2d3748"/>
+  <rect x="90" y="190" width="160" height="420" fill="#1a202c"/>
+  <!-- Windows grid -->
+  <g fill="#63b3ed" opacity="0.3">
+    <rect x="100" y="210" width="30" height="40"/>
+    <rect x="145" y="210" width="30" height="40"/>
+    <rect x="190" y="210" width="30" height="40"/>
+    <rect x="100" y="270" width="30" height="40"/>
+    <rect x="145" y="270" width="30" height="40"/>
+    <rect x="190" y="270" width="30" height="40"/>
+    <rect x="100" y="330" width="30" height="40"/>
+    <rect x="145" y="330" width="30" height="40"/>
+    <rect x="190" y="330" width="30" height="40"/>
+    <rect x="100" y="390" width="30" height="40"/>
+    <rect x="145" y="390" width="30" height="40"/>
+    <rect x="190" y="390" width="30" height="40"/>
+    <rect x="100" y="450" width="30" height="40"/>
+    <rect x="145" y="450" width="30" height="40"/>
+    <rect x="190" y="450" width="30" height="40"/>
+    <rect x="100" y="510" width="30" height="40"/>
+    <rect x="145" y="510" width="30" height="40"/>
+    <rect x="190" y="510" width="30" height="40"/>
+  </g>
+
+  <!-- Building 2 - Under construction -->
+  <rect x="320" y="250" width="200" height="370" fill="#4a5568"/>
+  <rect x="330" y="260" width="180" height="350" fill="#2d3748"/>
+  <!-- Exposed structure -->
+  <g stroke="#718096" stroke-width="3" fill="none">
+    <line x1="340" y1="280" x2="500" y2="280"/>
+    <line x1="340" y1="340" x2="500" y2="340"/>
+    <line x1="340" y1="400" x2="500" y2="400"/>
+    <line x1="340" y1="460" x2="500" y2="460"/>
+    <line x1="340" y1="520" x2="500" y2="520"/>
+    <line x1="370" y1="260" x2="370" y2="610"/>
+    <line x1="420" y1="260" x2="420" y2="610"/>
+    <line x1="470" y1="260" x2="470" y2="610"/>
+  </g>
+  <!-- Scaffolding -->
+  <g fill="#d69e2e" opacity="0.8">
+    <rect x="520" y="300" width="8" height="320"/>
+    <rect x="540" y="300" width="8" height="320"/>
+    <rect x="520" y="350" width="28" height="5"/>
+    <rect x="520" y="420" width="28" height="5"/>
+    <rect x="520" y="490" width="28" height="5"/>
+    <rect x="520" y="560" width="28" height="5"/>
+  </g>
+
+  <!-- Crane -->
+  <rect x="580" y="100" width="25" height="520" fill="#d69e2e"/>
+  <rect x="560" y="100" width="400" height="20" fill="#d69e2e"/>
+  <rect x="560" y="100" width="15" height="80" fill="#d69e2e"/>
+  <!-- Crane cables -->
+  <line x1="575" y1="180" x2="605" y2="120" stroke="#718096" stroke-width="3"/>
+  <line x1="900" y1="120" x2="950" y2="120" stroke="#718096" stroke-width="3"/>
+  <line x1="950" y1="120" x2="950" y2="300" stroke="#718096" stroke-width="2"/>
+  <!-- Crane hook -->
+  <rect x="940" y="300" width="20" height="30" fill="#4a5568"/>
+  <path d="M945 330 Q950 350 955 330" stroke="#4a5568" stroke-width="4" fill="none"/>
+  <!-- Counter weight -->
+  <rect x="560" y="120" width="40" height="50" fill="#4a5568"/>
+
+  <!-- Building 3 - Tall tower -->
+  <rect x="700" y="150" width="150" height="470" fill="#1a202c"/>
+  <rect x="710" y="160" width="130" height="450" fill="#2d3748"/>
+  <!-- Windows -->
+  <g fill="#fbd38d" opacity="0.4">
+    <rect x="720" y="180" width="25" height="35"/>
+    <rect x="755" y="180" width="25" height="35"/>
+    <rect x="790" y="180" width="25" height="35"/>
+    <rect x="720" y="235" width="25" height="35"/>
+    <rect x="755" y="235" width="25" height="35"/>
+    <rect x="790" y="235" width="25" height="35"/>
+    <rect x="720" y="290" width="25" height="35"/>
+    <rect x="755" y="290" width="25" height="35"/>
+    <rect x="790" y="290" width="25" height="35"/>
+    <rect x="720" y="345" width="25" height="35"/>
+    <rect x="755" y="345" width="25" height="35"/>
+    <rect x="790" y="345" width="25" height="35"/>
+    <rect x="720" y="400" width="25" height="35"/>
+    <rect x="755" y="400" width="25" height="35"/>
+    <rect x="790" y="400" width="25" height="35"/>
+    <rect x="720" y="455" width="25" height="35"/>
+    <rect x="755" y="455" width="25" height="35"/>
+    <rect x="790" y="455" width="25" height="35"/>
+    <rect x="720" y="510" width="25" height="35"/>
+    <rect x="755" y="510" width="25" height="35"/>
+    <rect x="790" y="510" width="25" height="35"/>
+  </g>
+
+  <!-- Building 4 - Shorter modern -->
+  <rect x="900" y="350" width="200" height="270" fill="#4a5568"/>
+  <rect x="910" y="360" width="180" height="250" fill="#2d3748"/>
+  <g fill="#63b3ed" opacity="0.3">
+    <rect x="920" y="380" width="40" height="50"/>
+    <rect x="980" y="380" width="40" height="50"/>
+    <rect x="1040" y="380" width="40" height="50"/>
+    <rect x="920" y="450" width="40" height="50"/>
+    <rect x="980" y="450" width="40" height="50"/>
+    <rect x="1040" y="450" width="40" height="50"/>
+    <rect x="920" y="520" width="40" height="50"/>
+    <rect x="980" y="520" width="40" height="50"/>
+    <rect x="1040" y="520" width="40" height="50"/>
+  </g>
+
+  <!-- Construction materials on ground -->
+  <rect x="100" y="630" width="80" height="30" fill="#718096"/>
+  <rect x="200" y="640" width="60" height="20" fill="#718096"/>
+  <circle cx="350" cy="650" r="20" fill="#4a5568"/>
+
+  <!-- Warning lights -->
+  <circle cx="420" cy="250" r="6" fill="#fc8181"/>
+  <circle cx="605" cy="95" r="8" fill="#fc8181"/>
+  <circle cx="775" cy="145" r="6" fill="#fc8181"/>
+</svg>

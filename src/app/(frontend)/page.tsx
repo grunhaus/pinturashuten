@@ -99,28 +99,26 @@ export default async function HomePage() {
       </section>
 
       {/* FEATURES BAR */}
-      <section className="py-5">
-        <div className="container">
+      <section className="py-4 md:py-5">
+        <div className="container px-4 md:px-6">
           <Animated animation="fade-up">
-            <div className="overflow-x-auto scrollbar-hide">
-              <div className="flex items-center justify-between gap-4 md:gap-6 px-4 md:px-8 py-4 bg-black text-white rounded-2xl min-w-max md:min-w-0">
-                <span className="flex items-center gap-2 text-xs md:text-sm tracking-widest uppercase whitespace-nowrap">
-                  <span className="w-1.5 h-1.5 rounded-full bg-white/50" />
-                  Calidad Certificada
-                </span>
-                <span className="flex items-center gap-2 text-xs md:text-sm tracking-widest uppercase whitespace-nowrap">
-                  <span className="w-1.5 h-1.5 rounded-full bg-white/50" />
-                  Fabricación Nacional
-                </span>
-                <span className="flex items-center gap-2 text-xs md:text-sm tracking-widest uppercase whitespace-nowrap">
-                  <span className="w-1.5 h-1.5 rounded-full bg-white/50" />
-                  Asesoría Técnica
-                </span>
-                <span className="flex items-center gap-2 text-xs md:text-sm tracking-widest uppercase whitespace-nowrap">
-                  <span className="w-1.5 h-1.5 rounded-full bg-white/50" />
-                  Entrega Rápida
-                </span>
-              </div>
+            <div className="grid grid-cols-2 md:flex md:items-center md:justify-between gap-3 md:gap-6 px-4 md:px-8 py-4 md:py-4 bg-black text-white rounded-xl md:rounded-2xl">
+              <span className="flex items-center gap-2 text-[10px] sm:text-xs md:text-sm tracking-wider md:tracking-widest uppercase">
+                <span className="w-1 h-1 md:w-1.5 md:h-1.5 rounded-full bg-white/50 flex-shrink-0" />
+                Calidad Certificada
+              </span>
+              <span className="flex items-center gap-2 text-[10px] sm:text-xs md:text-sm tracking-wider md:tracking-widest uppercase">
+                <span className="w-1 h-1 md:w-1.5 md:h-1.5 rounded-full bg-white/50 flex-shrink-0" />
+                Fabricación Nacional
+              </span>
+              <span className="flex items-center gap-2 text-[10px] sm:text-xs md:text-sm tracking-wider md:tracking-widest uppercase">
+                <span className="w-1 h-1 md:w-1.5 md:h-1.5 rounded-full bg-white/50 flex-shrink-0" />
+                Asesoría Técnica
+              </span>
+              <span className="flex items-center gap-2 text-[10px] sm:text-xs md:text-sm tracking-wider md:tracking-widest uppercase">
+                <span className="w-1 h-1 md:w-1.5 md:h-1.5 rounded-full bg-white/50 flex-shrink-0" />
+                Entrega Rápida
+              </span>
             </div>
           </Animated>
         </div>

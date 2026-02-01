@@ -254,12 +254,13 @@ export default async function HomePage() {
             </div>
           </Animated>
 
-          {/* Bento Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-            <Animated animation="fade-up" delay={100}>
+          {/* Bento Grid - 2 rows on desktop */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3 sm:gap-4">
+            {/* Row 1 - Two large cards */}
+            <Animated animation="fade-up" delay={100} className="sm:col-span-1 lg:col-span-3">
               <Link
                 href="/aplicaciones/vehiculos"
-                className="group relative rounded-xl sm:rounded-2xl overflow-hidden h-[200px] sm:h-[220px] block"
+                className="group relative rounded-xl sm:rounded-2xl overflow-hidden h-[200px] lg:h-[280px] block"
               >
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
@@ -267,16 +268,16 @@ export default async function HomePage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
                 <div className="absolute inset-0 p-4 sm:p-6 flex flex-col justify-end">
-                  <h3 className="text-lg sm:text-xl font-bold text-white mb-1">Vehículos y Maquinaria</h3>
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-1">Vehículos y Maquinaria</h3>
                   <p className="text-white/70 text-xs sm:text-sm">Chasis, carrocerías y equipos industriales</p>
                 </div>
               </Link>
             </Animated>
 
-            <Animated animation="fade-up" delay={150}>
+            <Animated animation="fade-up" delay={200} className="sm:col-span-1 lg:col-span-3">
               <Link
                 href="/aplicaciones/construccion"
-                className="group relative rounded-xl sm:rounded-2xl overflow-hidden h-[200px] sm:h-[220px] block"
+                className="group relative rounded-xl sm:rounded-2xl overflow-hidden h-[200px] lg:h-[280px] block"
               >
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
@@ -284,16 +285,17 @@ export default async function HomePage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
                 <div className="absolute inset-0 p-4 sm:p-6 flex flex-col justify-end">
-                  <h3 className="text-lg sm:text-xl font-bold text-white mb-1">Construcción</h3>
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-1">Construcción</h3>
                   <p className="text-white/70 text-xs sm:text-sm">Estructuras metálicas y arquitectónicas</p>
                 </div>
               </Link>
             </Animated>
 
-            <Animated animation="fade-up" delay={200}>
+            {/* Row 2 - Three smaller cards */}
+            <Animated animation="fade-up" delay={300} className="sm:col-span-1 lg:col-span-2">
               <Link
                 href="/aplicaciones/naval"
-                className="group relative rounded-xl sm:rounded-2xl overflow-hidden h-[200px] sm:h-[220px] block"
+                className="group relative rounded-xl sm:rounded-2xl overflow-hidden h-[200px] lg:h-[240px] block"
               >
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
@@ -307,10 +309,10 @@ export default async function HomePage() {
               </Link>
             </Animated>
 
-            <Animated animation="fade-up" delay={250}>
+            <Animated animation="fade-up" delay={400} className="sm:col-span-1 lg:col-span-2">
               <Link
                 href="/aplicaciones/energia"
-                className="group relative rounded-xl sm:rounded-2xl overflow-hidden h-[200px] sm:h-[220px] block"
+                className="group relative rounded-xl sm:rounded-2xl overflow-hidden h-[200px] lg:h-[240px] block"
               >
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
@@ -324,10 +326,10 @@ export default async function HomePage() {
               </Link>
             </Animated>
 
-            <Animated animation="fade-up" delay={300} className="sm:col-span-2 lg:col-span-1">
+            <Animated animation="fade-up" delay={500} className="sm:col-span-2 lg:col-span-2">
               <Link
                 href="/aplicaciones/petroleo"
-                className="group relative rounded-xl sm:rounded-2xl overflow-hidden h-[200px] sm:h-[220px] block"
+                className="group relative rounded-xl sm:rounded-2xl overflow-hidden h-[200px] lg:h-[240px] block"
               >
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
